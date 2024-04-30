@@ -6,4 +6,6 @@
     </div>
 
     <x-how />
+
+    <x-featured />
 </x-layout>

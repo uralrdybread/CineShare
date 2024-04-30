@@ -1,5 +1,5 @@
-<div class="bg-cyan-800">
-    <div class="flex justify-center my-5">
+<div class="bg-cyan-800 py-5">
+    <div class="flex justify-center py-3">
         <h2>How it works:</h2>
     </div>
 
