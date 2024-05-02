@@ -1,6 +1,5 @@
-<x-navbar />
-
 <x-layout>
+    <x-navbar />
     <x-hero />
 
     <x-how />
