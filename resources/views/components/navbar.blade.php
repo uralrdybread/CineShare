@@ -37,18 +37,11 @@
                 <div class="hidden sm:ml-6 sm:block">
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                        <a href="dashboard" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-                            aria-current="page">Dashboard</a>
-                        <a href="/"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Home</a>
-                        <a href="/contact"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
-                        <a href="/locations"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Locations</a>
-                        <a href="/calendar"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-                        <a href="/about"
-                            class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+                        <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
+                        <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
+                        <x-nav-link href="/locations" :active="request()->is('locations')">Locations</x-nav-link>
+                        <x-nav-link href="/calendar" :active="request()->is('calendar')">Calendar</x-nav-link>
+                        <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
                     </div>
                 </div>
             </div>

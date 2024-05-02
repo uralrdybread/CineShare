@@ -1,1 +1,3 @@
-Hello from locations page
+<x-layout>
+    <x-navbar />
+</x-layout>

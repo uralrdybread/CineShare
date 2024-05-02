@@ -1,1 +1,3 @@
-Hello from contact page
+<x-layout>
+    <x-navbar />
+</x-layout>

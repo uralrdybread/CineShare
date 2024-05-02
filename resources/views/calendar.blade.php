@@ -1,1 +1,3 @@
-Hello from calendar page
+<x-layout>
+    <x-navbar />
+</x-layout>
