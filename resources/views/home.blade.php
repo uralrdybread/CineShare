@@ -4,6 +4,4 @@
     <x-hero />
 
     <x-how />
-
-    <x-featured />
 </x-layout>
